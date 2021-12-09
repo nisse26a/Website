@@ -121,9 +121,9 @@ li a {
     /*background-image: url("login.jpg");
     background-size: cover; */
     background-color: rgba(0,0,0,0.5);
-    border-radius: 30px;
     outline: solid 2px rgba(255, 255, 255, 0.5);
     box-shadow: 0px 0px 30px 10px rgba(0,0,0,0.5);
+    border-radius: 30px;
   }
 
   /*#login_box div {
