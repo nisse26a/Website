@@ -1,4 +1,4 @@
-@media only screen and (min-width: 0px) and (max-width: 700px) { 
+@media only screen and (min-width: 0px) and (max-width: 600px) { 
     #mid {
         width: 80%;
     }
@@ -35,10 +35,6 @@
         font-family: comfortaa;
         border: 1px solid whitesmoke;
      }
-    
-     #login_box :nth-child(2) {
-        
-    }
     
      #login_box :nth-child(3) {
         margin: 25px auto;
