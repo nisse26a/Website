@@ -19,9 +19,8 @@ function validate() {
         location.href = 'index.html';
     }
     else {
-        alert("Inval username or password")
+        alert("Invalid username or password")
     }
-
 }
 
- 
+

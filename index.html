@@ -1,48 +1,62 @@
 <html>
     <head>
         <title>Solenoid Valve</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="main.css">
-        <link rel="stylesheet" href="main_small.css">
+
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="index2.css">
+        <link rel="stylesheet" href="index2_small.css">
+
         <script src="main.js"></script> 
+
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet"> 
     </head>
     <body>
-        
-        <div id="mid">
-        
-            <div> 
-                <ul id="ul">
-                    <div id="nav-icon" onclick="myFunction()">
+        <div id="center_container">
+            <div>
+                <div id="menu">
+                    <div onclick="menuFunction()">
                         <span></span>
                         <span></span>
                         <span></span>
                     </div>
-
-                    <li id="litop">
-                        <a href="#home">home</a>
-                    </li>
-                    <li>
-                        <a href="#settings">settings</a>
-                    </li>
-                    <li>
-                        <a href="login.html">logout</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div id="div1">
-                <div id="div2">
-                    <h2 id="h2_1">
-                        Status: <span>not connected</span> 
-                    </h2>
+                    <ul>
+                        <li>
+                            <a href="settings.html">Settings</a>
+                        </li>
+                        <li>
+                            <a href="login.html">Logout</a>
+                        </li>
+                    </ul>
                 </div>
-             </div>
-
-            <div id="box">
-
             </div>
+            <div id="status_container">
+                <h1>
+                    Status: <span>Not Connected</span>
+                </h1>
+                <div id="tap_image_container">
+                    <div id="tap_image" onclick="runFunction()">
 
+                    </div>
+                    <ul id="tap_ul"> 
+                        <li>
+                            <p>Status: Running</p>
+                        </li>
+                        <li>
+                            <p>Progress: 10/100%</p>
+                        </li>
+                        <li>
+                            <p>Estimated Time: 10 min</p>
+                        </li>
+                        <li>
+                            <p>Amount: 1000 liters</p>
+                        </li>
+                    </ul>
+                    <div id="status_button" onclick="stopFunction()">
+                        <h1>Shutdown</h1>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
