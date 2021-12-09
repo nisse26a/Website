@@ -6,9 +6,6 @@ body {
 }
 
 #mid {
-    border-width: 0px;
-    border-color: white;
-    border-style: solid;
     height: 100%;
     width: 60%;
     background-color: white;
@@ -143,10 +140,6 @@ li a {
     font-family: comfortaa;
     border: 1px solid whitesmoke;
  }
-
- #login_box :nth-child(2) {
-    
-}
 
  #login_box :nth-child(3) {
     margin: 25px auto;
