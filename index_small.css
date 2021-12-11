@@ -5,12 +5,13 @@
     }
 
     #status_container {
-       display: block;
-       position: relative;
+        display: inline-block;
+        position: relative;
+        margin-top: -30%;
     }
 
     #status_container h1 {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     #tap_image_container {
