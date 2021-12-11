@@ -2,41 +2,45 @@
     <head>
         <title>Solenoid Valve</title>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet" href="login_main.css">
         <link rel="stylesheet" href="login_small.css">
-        <script src="login.js"></script> 
-        <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet"> 
 
+        <script src="main.js"></script> 
+        <script src="login.js"></script> 
+
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet"> 
     </head>
     <body>
-        
-        <div id="mid">
-        
-            <div> 
-                <ul id="ul">
-                    <div id="nav-icon" onclick="myFunction()">
+        <div id="center_container">
+            <div>
+                <div id="menu">
+                    <div onclick="menuFunction()">
                         <span></span>
                         <span></span>
                         <span></span>
                     </div>
-
-                    <li id="litop">
-                        <a href="#login">login</a>
-                    </li>
-                </ul>
+                    <ul>
+                        <li>
+                            <a href="settings.html">Settings</a>
+                        </li>
+                        <li>
+                            <a href="login.html">Logout</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
+            <div id="login_container">
+                <h1>
+                    Login
+                </h1>
 
-            <div id="login_box">
-               
-                <h1>Login</h1>          
                 <input type="Username" placeholder="Username" id="username"> 
                 <input type="Password" placeholder="Password" id="password">
-                <input type="button" value="Enter" onclick="validate()">
+                <input type="Button" value="Enter" onclick="validate()">
                
             </div>
-
         </div>
     </body>
 </html>

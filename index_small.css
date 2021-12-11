@@ -4,8 +4,32 @@
         height: 110%;
     }
 
+    #status_container {
+        display: inline-block;
+        position: relative;
+        top: 30%;
+    }
+
+    #status_container h1 {
+        font-size: 30px;
+    }
+
+    #tap_image_container {
+        width: 125px;
+        min-height: 125px;
+  
+    }
+
+    #tap_image{
+        width: 125px;
+        height: 125px;
+    }
+
     #tap_image_container.open {
-        border: 2px solid lightgreen;
-        width: 250px;
+        width: 300px;
+    }
+
+    #status_button h1 {
+        font-size: 15px;
     }
 }
