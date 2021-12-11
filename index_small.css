@@ -5,9 +5,8 @@
     }
 
     #status_container {
-        display: inline-block;
-        position: relative;
-        margin-top: -30%;
+       display: block;
+       position: relative;
     }
 
     #status_container h1 {
