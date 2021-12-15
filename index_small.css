@@ -1,0 +1,28 @@
+@media only screen and (min-width: 0px) and (max-width: 700px) { 
+    #center_container {
+        width: 80%;
+        height: 100%;
+    }
+
+    #status_container h1 {
+        font-size: 20px;
+    }
+
+    #tap_image_container {
+        width: 125px;
+        min-height: 125px;
+    }
+
+    #tap_image {
+        width: 125px;
+        height: 125px;
+    }
+
+    #tap_image_container.open {
+        width: 300px;
+    }
+
+    #status_button h1 {
+        font-size: 15px;
+    }
+}
