@@ -1,0 +1,38 @@
+@media only screen and (min-width: 0px) and (max-width: 800px) { 
+    #center_container {
+        width: 80%;
+        height: 110%;
+    }
+
+    #middle_container h1 {
+        font-size: 25px;
+    }
+
+    #status_container {
+        width: 125px;
+        height: 125px;
+    }
+
+    #status_container ul li p {
+        font-size: 17px;
+    }
+
+    #tap_image {
+        width: 125px;
+        height: 125px;
+    }
+
+    #status_container.open {
+        width: 300px;
+    }
+
+    #status_shutdown_button {
+        width: 100px;
+        height: 20px;
+    }
+
+    #status_shutdown_button h1 {
+        margin-top: 7px;
+        font-size: 15px;
+    }
+}

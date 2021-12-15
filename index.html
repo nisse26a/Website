@@ -1,21 +1,25 @@
 <html>
     <head>
-        <title>Solenoid Valve</title>
+        <title>Main Page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="application-name" content="Water Controlls">
+        <meta name="robots" content="index,follow,noodp">
+    
+        <link rel="icon" href="images/favicon.png" type="image/png">
+        
+        <link rel="stylesheet" href="index_style.css">
+        <link rel="stylesheet" href="index_style_small.css">
 
-        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <link rel="stylesheet" href="index_main.css">
-        <link rel="stylesheet" href="index_small.css">
-
-        <script src="main.js"></script> 
+        <script src="index_script.js"></script>
 
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet"> 
     </head>
     <body>
         <div id="center_container">
-            <div>
-                <div id="menu">
-                    <div onclick="menuFunction()">
+            <div id="top_container">
+                <div id="menu" onclick="function_menu()">
+                    <div>
                         <span></span>
                         <span></span>
                         <span></span>
@@ -30,15 +34,15 @@
                     </ul>
                 </div>
             </div>
-            <div id="status_container">
+            <div id="middle_container">
                 <h1>
                     Status: <span>Not Connected</span>
                 </h1>
-                <div id="tap_image_container">
-                    <div id="tap_image" onclick="runFunction()">
+                <div id="status_container">
+                    <div id="tap_image" onclick="function_status()">
 
                     </div>
-                    <ul id="tap_ul"> 
+                    <ul id="tap_ui"> 
                         <li>
                             <p>Status: <span>Running </span></p>
                         </li>
@@ -52,9 +56,9 @@
                             <p>Amount: <span>0/1000 liters</span></p>
                         </li>
                     </ul>
-                    <div id="status_button" onclick="stopFunction()">
-                        <h1>Shutdown</h1>
-                    </div>
+                </div>
+                <div id="status_shutdown_button" onclick="function_status_shutdown()">
+                    <h1>Shutdown</h1>
                 </div>
             </div>
         </div>
