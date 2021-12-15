@@ -4,6 +4,10 @@
         height: 110%;
     }
 
+    #top_container {
+        float: right;
+    }
+
     #middle_container h1 {
         font-size: 25px;
     }
